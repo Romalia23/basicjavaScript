@@ -1,12 +1,18 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>Simple JavaScript</title>
-    
-  </head>
-  <body>
-    <h1>Click the buttons to shake</h1>
-    <button onclick="document.getElementById('image1').src='ShakeRight.jpeg'">Right</button>
-    <img id="image1" src="ShakeLeft.jpeg" style ="width:500px">
-    <button onclick="document.getElementById('image1').src='ShakeLeft.jpeg'">Right</button>
-  </body>
+<body>
+
+<h2>What Can JavaScript Do?</h2>
+
+<p>JavaScript can change HTML attribute values.</p>
+
+<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+<button onclick="document.getElementById('myImage').src='ShakeRight.jpeg'">Right</button>
+
+<img id="myImage" src="ShakeLeft.jpeg" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='ShakeLeft.jpeg'">Left</button>
+
+</body>
 </html>
